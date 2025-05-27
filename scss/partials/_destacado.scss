@@ -1,0 +1,21 @@
+.destacado {
+  background-color: $color-claro;
+  border: 1px solid lighten($color-principal, 20%);
+  border-radius: 12px;
+  box-shadow: $shadow-suave;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.03);
+  }
+
+  h5 {
+    color: $color-principal;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 0.95rem;
+    color: darken($color-principal, 10%);
+  }
+}

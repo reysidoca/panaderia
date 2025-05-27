@@ -1,0 +1,27 @@
+.site-footer {
+  background-color: #fff3e0;
+  border-top: 1px solid #e0b27b;
+  color: #8d5524;
+  font-size: 0.9rem;
+
+  a {
+    display: inline-block;
+    margin: 0 0.5rem;
+    transition: transform 0.3s;
+
+    img {
+      vertical-align: middle;
+      filter: brightness(0.7);
+      transition: filter 0.3s ease, transform 0.3s ease;
+    }
+
+    &:hover img {
+      filter: brightness(1);
+      transform: scale(1.1);
+    }
+  }
+
+  p {
+    margin-bottom: 0.3rem;
+  }
+}

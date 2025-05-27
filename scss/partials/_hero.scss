@@ -1,0 +1,4 @@
+.hero {
+  @include fondo-hero('../medios/hero-panaderia.jpg');
+  padding: $padding-base;
+}

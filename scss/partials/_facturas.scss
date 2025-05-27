@@ -1,0 +1,27 @@
+.facturas {
+  background-color: #fff9f4;
+
+  h2 {
+    color: $color-principal;
+    font-weight: bold;
+  }
+
+  .card {
+    border: none;
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: scale(1.03);
+    }
+
+    .card-title {
+      color: $color-principal;
+      font-weight: 600;
+    }
+
+    .card-text {
+      font-size: 0.95rem;
+      color: #444;
+    }
+  }
+}

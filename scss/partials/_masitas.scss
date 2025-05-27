@@ -1,0 +1,44 @@
+%card-base {
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: $shadow;
+  @include smooth-transition;
+}
+
+main {
+  background-color: $bg-light;
+
+  .producto {
+    @extend %card-base;
+    padding: 1.5rem;
+    text-align: center;
+
+    img {
+      border-radius: 0.75rem;
+      max-height: 200px;
+      object-fit: cover;
+      margin-bottom: 1rem;
+    }
+
+    h5 {
+      color: $primary-color;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      font-size: 0.95rem;
+      color: #555;
+
+      &.precio {
+        color: $precio-color;
+        font-weight: 600;
+        margin-top: 0.5rem;
+      }
+    }
+
+    &:hover {
+      transform: scale(1.02);
+    }
+  }
+}

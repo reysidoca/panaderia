@@ -1,0 +1,151 @@
+.site-footer {
+  background-color: #fff3e0;
+  border-top: 1px solid #e0b27b;
+  color: #8d5524;
+  font-size: 0.9rem;
+}
+.site-footer a {
+  display: inline-block;
+  margin: 0 0.5rem;
+  transition: transform 0.3s;
+}
+.site-footer a img {
+  vertical-align: middle;
+  filter: brightness(0.7);
+  transition: filter 0.3s ease, transform 0.3s ease;
+}
+.site-footer a:hover img {
+  filter: brightness(1);
+  transform: scale(1.1);
+}
+.site-footer p {
+  margin-bottom: 0.3rem;
+}
+
+.hero {
+  background: url("../medios/hero-panaderia.jpg") center/cover no-repeat;
+  height: 80vh;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+  padding: 1.5rem;
+}
+
+.destacado {
+  background-color: #fff3e0;
+  border: 1px solid rgb(208.0169491525, 134.9322033898, 70.9830508475);
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+.destacado:hover {
+  transform: scale(1.03);
+}
+.destacado h5 {
+  color: #8d5524;
+  font-weight: bold;
+}
+.destacado p {
+  font-size: 0.95rem;
+  color: rgb(100.3728813559, 60.5084745763, 25.6271186441);
+}
+
+.site-header {
+  background-color: #fff3e0;
+  border-bottom: 1px solid #e0b27b;
+}
+.site-header .logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #8d5524;
+}
+.site-header .nav-link {
+  color: #8d5524;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+.site-header .nav-link:hover {
+  color: #d35400;
+}
+
+.facturas {
+  background-color: #fff9f4;
+}
+.facturas h2 {
+  color: #8d5524;
+  font-weight: bold;
+}
+.facturas .card {
+  border: none;
+  transition: transform 0.3s ease;
+}
+.facturas .card:hover {
+  transform: scale(1.03);
+}
+.facturas .card .card-title {
+  color: #8d5524;
+  font-weight: 600;
+}
+.facturas .card .card-text {
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.producto, main .producto {
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease-in-out;
+}
+
+main {
+  background-color: #fff9f3;
+}
+main .producto {
+  padding: 1.5rem;
+  text-align: center;
+}
+main .producto img {
+  border-radius: 0.75rem;
+  max-height: 200px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+main .producto h5 {
+  color: #d2691e;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+main .producto p {
+  font-size: 0.95rem;
+  color: #555;
+}
+main .producto p.precio {
+  color: #444;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+main .producto:hover {
+  transform: scale(1.02);
+}
+
+.producto {
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  transition: transform 0.3s ease;
+}
+.producto:hover {
+  transform: scale(1.03);
+}
+.producto img {
+  max-height: 200px;
+  object-fit: cover;
+}
+.producto h5 {
+  font-weight: 600;
+  color: #5c3d1b;
+}
+.producto .precio {
+  font-weight: bold;
+  color: #d35400;
+}
+
+/*# sourceMappingURL=estilos.css.map */

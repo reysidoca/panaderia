@@ -1,0 +1,25 @@
+.producto {
+  @extend %card-base;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.03);
+  }
+
+  img {
+    max-height: 200px;
+    object-fit: cover;
+  }
+
+  h5 {
+    font-weight: 600;
+    color: #5c3d1b;
+  }
+
+  .precio {
+    font-weight: bold;
+    color: #d35400;
+  }
+}

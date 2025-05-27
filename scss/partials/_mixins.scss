@@ -1,0 +1,9 @@
+@mixin fondo-hero($img-url) {
+  background: url($img-url) center/cover no-repeat;
+  height: 80vh;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+}
+
+@mixin smooth-transition {
+  transition: all 0.3s ease-in-out;
+}
